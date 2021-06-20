@@ -75,6 +75,7 @@ One percent is equal to 0.01.*
 
    * - -<number>
      - Subtract a value from the current value.
+     
        **If you are intending to set a value to a negative value, use the : expression.**
 
    * - \*<number>

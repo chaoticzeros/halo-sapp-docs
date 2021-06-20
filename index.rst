@@ -15,9 +15,9 @@ for Halo CE multiplayer.
    :caption: Contents:
 
 
-   docs/setup/index
-   docs/commands/index
-   docs/scripting/index
-   docs/about/index
+   setup/index
+   commands/index
+   scripting/index
+   about/index
    
 

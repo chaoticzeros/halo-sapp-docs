@@ -11,11 +11,12 @@ Like in stock Halo, SAPP command names can be autocompleted by pressing TAB.
 .. toctree::
    :maxdepth: 2
 
-   1-expressions
-   2-sapp
-   3-stock
-   4-player
-   5-general
-   6-config
-   7-map
-   8-advanced
+   expressions
+   sapp
+   stock
+   player
+   general
+   config
+   map
+   admin
+   advanced

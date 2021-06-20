@@ -18,7 +18,9 @@ played, you can skip the map cycle, and you can automatically skip map cycle ent
 To set up your map cycle, you can edit your mapcycle.txt, or use SAPP’s map cycle commands.
 This is how each line in mapcycle.txt file is formatted:
 
-map\ **:**\ game variant\ **:**\ minimum players\ **:**\ maximum players
+.. code-block::
+  
+  map:gamevariant:minimumplayers:maximumplayers
 
 .. list-table::
    :widths: 15 30
@@ -54,6 +56,7 @@ map\ **:**\ game variant\ **:**\ minimum players\ **:**\ maximum players
    * - sapp_mapcycle[enabled]
      - This will enable SAPP’s mapcycle.
        *mapcycle_begin* will also automatically enable this if it isn’t already enabled.
+
        *Default: false*
 
 
@@ -77,7 +80,9 @@ This will only hide entries, thus the number of votes displayed will be reduced.
 To set up map voting, you can edit your mapvotes.txt, or use SAPP’s map votes commands.
 This is how each line in mapvotes.txt file is formatted:
 
-map\ **:**\ game variant\ **:**\ name\ **:**\ minimum players\ **:**\ maximum players
+.. code-block::
+  
+  map:gamevariant:name:minimumplayers:maximumplayers
 
 .. list-table::
    :widths: 15 30
@@ -104,4 +109,5 @@ map\ **:**\ game variant\ **:**\ name\ **:**\ minimum players\ **:**\ maximum pl
    * - max_votes [count]
      - This is the maximum displayed votes per round.
        However, if your map voting requires a certain number of players, then there may be less votes displayed if these games are unavailable.
+       
        *Default: 5*
