@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SAPP'
-copyright = '2021, 002, chaoticzeros'
-author = '002, chaoticzeros'
+copyright = '2021, sehé°°, 002'
+author = 'sehé°°, 002'
 
 
 # -- General configuration ---------------------------------------------------

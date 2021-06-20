@@ -17,13 +17,13 @@ These admins are automatically authenticated upon joining the server based on CD
 If your admin shares CD keys, then using an IP is recommended.
 
 .. list-table::
-   :widths: 33 33 33
-   :header-rows: 0
+   :widths: 15 25 5
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
-     - **L eve l**
+   * - Command Usage
+     - Effect
+     - Level
 
    * - adminadd <playerexpr> <level>[allowed IPranges…]
      - Add a CD-Key based admin.
@@ -59,13 +59,13 @@ Alternatively, you can create a script that kicks users with certain names who h
 Name-based admins can also use remote console if it’s enabled on the server.
 
 .. list-table::
-   :widths: 33 33 33
-   :header-rows: 0
+   :widths: 15 25 5
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
-     - **L eve l**
+   * - Command Usage
+     - Effect
+     - Level
 
    * - admin_add <playerexpr> <password><level>
      - Add a name and password based admin.
