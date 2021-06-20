@@ -9,12 +9,12 @@ Lua scripts are placed in the lua folder.
     Current Lua API version: 1.12.0.0
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - lua [enabled]
      - Enabling this will enable Lua scripting.

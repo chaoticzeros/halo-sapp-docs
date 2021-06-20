@@ -9,7 +9,7 @@ These commands are intended to be used by administrators to moderate the server 
 
 
    * - Command Usage
-     - effectively
+     - Effect
      - Level
 
    * - afks

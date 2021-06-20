@@ -22,9 +22,9 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
    * - adminadd_samelevel[value]
      - Setting this will allow/disallow admins to add other V1 admins at certain levels using the *adminadd* command.
 
-       0 = Admins cannot add other admins.
-       1 = Admins can add admins to any lower level.
-       2 = Admins can add admins to lower/equal levels.
+       - 0 = Admins cannot add other admins.
+       - 1 = Admins can add admins to any lower level.
+       - 2 = Admins can add admins to lower/equal levels.
 
        *Default: 0 (admins cannot add admins)*
 
@@ -33,9 +33,9 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
 
        **This is no substitute for hiring non-abusive, trustworthy admins.**  
        
-       0 = Admins can freely kick/ban other admins.
-       1 = Admins cannot ban admins with a higher level.
-       2 = Admins can only ban admins with a lower level.
+       - 0 = Admins can freely kick/ban other admins.
+       - 1 = Admins cannot ban admins with a higher level.
+       - 2 = Admins can only ban admins with a lower level.
 
        *Default: 0 (admins can ban admins)*
 
@@ -44,9 +44,9 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
 
        **This is no substitute for hiring non-abusive, trustworthy admins.**  
        
-       0 = Admins cannot delete admins.
-       1 = Admins can delete admins of a lower level.
-       2 = Admins can delete admins of lower/equal levels.
+       - 0 = Admins cannot delete admins.
+       - 1 = Admins can delete admins of a lower level.
+       - 2 = Admins can delete admins of lower/equal levels.
 
        *Default: 0 (admins cannot delete admins)*
 
@@ -58,7 +58,10 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
    * - aimbot_ban [length][type]
      - Enabling this will automatically kick and/or ban aimbotters for a specified length of time in minutes.
 
-       0 = CD-hash ban  1 = IP ban  2 = CD and IP ban  3 = Kick  
+       - 0 = CD-hash ban  
+       - 1 = IP ban  
+       - 2 = CD and IP ban  
+       - 3 = Kick  
        
        *Default: 0 minutes (disabled)*
 
@@ -102,7 +105,9 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
    * - antispam [type]
      - Enabling this will automatically mute players who send too many chat messages in a short amount of time on your server (spam).
        
-       0 = Disabled  1 = CD-key (*textban*)  2 = IP-based (*mute*)  
+       - 0 = Disabled  
+       - 1 = CD-key (*textban*)  
+       - 2 = IP-based (*mute*)  
        
        *Default: 0 (disabled)*
 
@@ -381,6 +386,8 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
    * - zombies [team]
      - This enables zombies medals for HAC2.
        
-       0 = None 1 = Red 2 = Blue 
+       - 0 = None 
+       - 1 = Red 
+       - 2 = Blue 
        
        *Default: 0 (none)*

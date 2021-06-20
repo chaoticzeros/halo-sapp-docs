@@ -1,10 +1,10 @@
 Advanced Commands
 ===================
 
-.. note:: Please refer the PDF docs for information on the following topics.
+.. toctree::
 
-    * Events
-    * Custom Commands
-    * Query Packet Manipulation
-    * Naughty Commands
-    * Remote Console
+    events
+    custom
+    query
+    naughty
+    remote

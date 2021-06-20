@@ -2,7 +2,7 @@ Player Commands
 ---------------
 
 Most of these commands are available to all players.
-Commands in blue cannot have their levels or names modified with setcmd, nor can they be scripted with the *execute_command* function.
+Commands marked by \* cannot have their levels or names modified with setcmd, nor can they be scripted with the *execute_command* function.
 
 .. list-table::
    :widths: 15 25 5
@@ -14,7 +14,7 @@ Commands in blue cannot have their levels or names modified with setcmd, nor can
      - Level
 
    * - about
-     - This command displays the current version.
+     - \* This command displays the current version.
      - -1
 
    * - afk
@@ -22,17 +22,19 @@ Commands in blue cannot have their levels or names modified with setcmd, nor can
      - 0
 
    * - clead [ping]
-     - This command has player lead at a certain ping rather than at 0 ping.
+     - \* This command has player lead at a certain ping rather than at 0 ping.
        *no_lead* has to be enabled and *lead* has to be disabled.
+
        *Default: 0 ms*
      - -1
 
    * - info
-     - This command displays the server name, the number of players, the current map, and if scrim mode is enabled.
+     - \* This command displays the server name, the number of players, the current map, and if scrim mode is enabled.
      - -1
 
    * - lead [enabled]
-     - This command toggles leading when no-lead mode is enabled.
+     - \*   This command toggles leading when no-lead mode is enabled.
+
        *Default: false*
      - -1
 
@@ -41,20 +43,20 @@ Commands in blue cannot have their levels or names modified with setcmd, nor can
      - -1
 
    * - login <password>
-     - Log into a name and password based admin account.
+     - \* Log into a name and password based admin account.
      - -1
 
    * - report [message]
-     - Report with a message.
+     - \* Report with a message.
        This command requires *anticheat* to be enabled.
      - -1
 
    * - stats
-     - Show the player’s kills, deaths, and kill/death decimal.
+     - \* Show the player’s kills, deaths, and kill/death decimal.
      - -1
 
    * - stfu
-     - Block messages received from the *say* command as well as scripted rcon messages.
+     - \* Block messages received from the *say* command as well as scripted rcon messages.
      - -1
 
    * - sv_stats
@@ -64,7 +66,7 @@ Commands in blue cannot have their levels or names modified with setcmd, nor can
      - -1
 
    * - unstfu
-     - Disables stfu.
+     - \* Disables stfu.
        The reason for this command existing instead of just toggling stfu with /stfu 0 is unclear.
      - -1
 

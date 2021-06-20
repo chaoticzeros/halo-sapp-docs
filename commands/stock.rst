@@ -46,7 +46,10 @@ the dedicated server rather than just Halo Custom Edition.
        This overrides the game variant settings.
        Note that explosion-only friendly fire can only be toggled from the game variant.
 
-       0 = Default (game variant)  1 = Off  2 = Shield only  3 = On  
+       - 0 = Default (game variant)  
+       - 1 = Off  
+       - 2 = Shield only  
+       - 3 = On  
        
        *Default: 0 (use game variant)*
 
