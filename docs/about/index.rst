@@ -1,0 +1,10 @@
+About
+=======
+
+This documentation is originally made by 002 which is now official, reviewed, approved and
+endorsed by sehé°°. Rearranged for web by chaoticzeros.
+
+.. toctree::
+
+    features
+    license
