@@ -10,8 +10,8 @@ The use of these commands is completely optional if you want to exclusively use 
 your server.
 SAPP enables brute force protection to rcon, and temporarily sets the level of the player to 4 upon success.
 
-CD-Key based Admin Management
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CD-Key based
+~~~~~~~~~~~~~
 
 These admins are automatically authenticated upon joining the server based on CD-key hash and, optionally, their IP.
 If your admin shares CD keys, then using an IP is recommended.
@@ -45,8 +45,8 @@ If your admin shares CD keys, then using an IP is recommended.
      - 4
 
 
-Name and Password based Admin Management
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Name and Password based
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 These admins must use the login command to be authenticated and must have the correct profile name and provide the correct password.
 This system can be more secure than automatically authenticating the user, especially if a user uses the same PC as someone else.

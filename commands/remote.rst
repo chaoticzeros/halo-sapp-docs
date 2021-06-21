@@ -6,15 +6,16 @@ For your convenience, the remote console commands are listed twice: once in the 
 section.
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - remote_console[enabled]
      - Enabling this will enable the remote console.
+
        *Default: false*
 
    * - remote_console_list
@@ -23,6 +24,7 @@ section.
    * - remote_console_port[port]
      - Set the TCP port of the remote console.
        Using this command will require restarting the remote console to take effect.
+
        *Default: Port for the Halo server*
 
 
@@ -33,7 +35,7 @@ Command permissions work as expected: level 2 admins can neither execute level 3
 **The rest of this section is a little bit more technical and is designed to help you create a remote console client.
 If you just want to use remote console, there are pre-existing clients out there on sites like Open Carnage** (http://opencarnage.net).
 
-**The SAPP site also has a web client:** http://halo.isimaginary.com/remote_console/
+.. **The SAPP site also has a web client:** http://halo.isimaginary.com/remote_console/
 
 The remote console uses TCP, and every request is a JSON structure terminated with a single line feed character (\\n) and parsed upon receipt.
 
@@ -43,7 +45,7 @@ Opcodes
 -------
 
 .. list-table::
-   :widths: 5 15 10 20
+   :widths: 5 10 5 25
    :header-rows: 1
 
 
@@ -256,4 +258,4 @@ Opcodes
        my_cpu_load: integer
 
 
-Note: **Bold** fields indicate variables that may not always be present.
+Note: **Bold** indicates variables that may not always be present.

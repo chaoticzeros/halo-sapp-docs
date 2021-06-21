@@ -328,9 +328,9 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
        
        **If a v2 admin has a password that exceeds 8 characters, then that admin cannot use rcon.**  
        
-       **This is not an excuse to use a weak rcon password, as
+       This is not an excuse to use a weak rcon password, as
        rcon can be used by anyone when SAPP is unloaded (such as due to an update).
-       If this is a problem, use a script that changes the rcon password to “” when the script is unloaded, then changes it back when SAPP is loaded again.**
+       If this is a problem, use a script that changes the rcon password to “” when the script is unloaded, then changes it back when SAPP is loaded again.
        
        *Default: false*
 
@@ -356,8 +356,24 @@ These commands do not retain their settings when SAPP is reloaded, so use of the
    * - set_ccolor [value]
      - You can set the console color.
        To calculate the color, add the foreground color to the background color multiplied by 16.
-       
-       **0123456789abcdef**
+
+       - 0 = black
+       - 1 = blue
+       - 2 = green
+       - 3 = cyan
+       - 4 = red
+       - 5 = magenta
+       - 6 = yellow/brown
+       - 7 = white
+       - 8 = gray
+       - 9 = bright blue
+       - a = bright green
+       - b = bright cyan
+       - c = bright red
+       - d = bright magenta
+       - e = bright yellow
+       - f = white
+
 
    * - setcmd <command><name/level>
      - This command will allow you to change either the name or the required admin level of (almost) any other SAPP commands or custom-defined command.

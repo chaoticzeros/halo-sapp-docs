@@ -5,12 +5,12 @@ These commands can be used to directly modify various attributes of players, whi
 These commands cannot be used when *scrim_mode* is enabled, and all of them require the player to have level 4 admin access in order to use them.
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - ammo <player_expr>[int_expr] [weapon]
      - Change a player’s weapon’s unloaded ammo.
@@ -82,10 +82,11 @@ These commands cannot be used when *scrim_mode* is enabled, and all of them requ
      - Change the ticks-per-second of the game.
        A tick normally lasts 1/30 of a second, but this command can change this to make the server faster or slower.
        
-       **This setting requires that clients have HAC2 or Anticheat installed to sync automatically.**  
-       **Values greater than 35 may result in networking issues for clients where the value has synced.**  
-       **Values lower than 30 will result in unsynced clients visibly warping according to synced clients,
-       effectively making all unsynced clients run at 30 ticks per second while everyone else runs at the slower speed of the server.**  
+       **This setting requires that clients have HAC2 or Anticheat installed to sync automatically.** 
+
+       Values greater than 35 may result in networking issues for clients where the value has synced.
+       Values lower than 30 will result in unsynced clients visibly warping according to synced clients,
+       effectively making all unsynced clients run at 30 ticks per second while everyone else runs at the slower speed of the server.  
        
        *Default: 30.0*
 

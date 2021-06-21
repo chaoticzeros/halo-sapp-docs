@@ -5,7 +5,8 @@ SAPP provides a variety of commands to be used by both hosts, administrators, an
 Each command has a minimum admin level in order to be invoked.
 Like in stock Halo, SAPP command names can be autocompleted by pressing TAB.
 
-**These commands are subject to change in future SAPP versions.**
+
+.. caution:: These commands are subject to change in future SAPP versions.
 
 
 .. toctree::
@@ -18,5 +19,9 @@ Like in stock Halo, SAPP command names can be autocompleted by pressing TAB.
    general
    config
    map
+   events
+   custom
+   query
    admin
-   advanced
+   naughty
+   remote

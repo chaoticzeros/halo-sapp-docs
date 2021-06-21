@@ -12,7 +12,6 @@ The format for a line in commands.txt:
 
 .. code-block::
 
- 
    command_name *#argument1 #argument2...* ‘command1;command2;etc...’ *level*
 
 Arguments function like variables, but require a pound sign (#) instead of a dollar sign ($).
@@ -22,11 +21,11 @@ You can also have SAPP add and remove commands with these commands:
 
 .. list-table::
    :widths: 50 50
-   :header-rows: 0
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - cmd_add <command>[arguments]<command sequence>[level]
      - This creates a new custom command and places it at the end of commands.txt.
@@ -39,9 +38,8 @@ As an example of custom commands, custom variables, and custom event, let’s sa
 First, you’d want to set up the money variable in your SAPP init.txt:
 
 .. code-block::
-
  
-   ``var_add money 4``
+   var_add money 4
 
 What you’re doing here is creating a custom variable, an integer on the player scope.
 These are initially blank or 0, but can be set later through the use of the var_set command, which can be useful if you intend to use the value later.
@@ -52,8 +50,7 @@ Place this in your events.txt file:
 
 .. code-block::
 
- 
-   ``event_join ‘var_set money 100 $n’``
+   event_join ‘var_set money 100 $n’
 
 Why don’t you also award them some points for when they score, too.
 
@@ -67,7 +64,6 @@ Refer to the *Custom Events* section if this isn’t familiar.
 
 .. code-block::
 
- 
    event_custom $ename=buynades $money<100 ‘say $n “Insufficient funds ($money)”’
 
    event_custom $ename=buynades $money>=100 ‘var_set money -100 $n; nades $n 4; say $n “Nades maxed ($money)”’
@@ -76,7 +72,6 @@ Lastly, we can add a command to get this custom event to be used.
 Put this in your commands.txt file:
 
 .. code-block::
-
  
    buynades ‘cevent buynades $n’ -1
 
