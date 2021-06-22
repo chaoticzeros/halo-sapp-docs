@@ -45,9 +45,6 @@ reduce time between games, and an rcon password.
 SAPP Configuration
 ===================
 
-
-
-
 After starting up and loading SAPP for the first time, it
 will create a number of files and folders ready to be edited. You do
 not need to use or know all of the files for a working server.
