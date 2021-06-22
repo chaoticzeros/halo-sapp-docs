@@ -62,7 +62,7 @@ It is recommended that you open the server with a batch script. Here's how to cr
 
 
 .. Tip:: The same effect can be obtained by creating a shortcut to the server application and appending the arguments 
-          to the shortcuts target field.
+          to the shortcut's target field.
 
 Updating SAPP
 -------------

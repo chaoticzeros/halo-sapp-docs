@@ -1,11 +1,11 @@
 About
 =======
 
-SAPP was developed and maintained by sehé°°, halo.isimaginary.com.
+SAPP was developed and maintained by sehé, halo.isimaginary.com.
 Most of the included documentation was originally made by 002 which was, reviewed, approved and
-endorsed by sehé°°. 
+endorsed by sehé. 
 
-This online documentation is maintained by chaoticzeros 
+This online documentation is maintained by :email:`chaoticzeros <chaoticzeros@gmail.com>` 
 (not associated with SAPP or its owners).
 
 .. toctree::

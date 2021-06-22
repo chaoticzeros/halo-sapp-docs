@@ -7,18 +7,21 @@ Server Initialization
 In order to use a dedicated server, you need to enter commands.
 You can enter these commands, yourself, when the dedicated server starts, 
 or you can have the dedicated server enter them for you for less of a hassle.
-Using an init.txt file is *strongly* recommended.
+This is achieved by the init.txt file. Using an init.txt file is strongly recommended.
 
 .. note:: Your dedicated server has **two** init.txt files:
     One is opened when the Halo Dedicated Server starts up, located in the server folder.
     The other file is loaded when SAPP loads, located in the SAPP folder.
+
+
+.. _Server Init:
 
 Server init.txt
 -----------------
 
 This file is opened when the server starts.
 The Halo dedicated server (and client) can read init.txt files with LF (Unix) or CRLF (Windows) line endings.
-Your server's init.txt file should contain the *load* command so SAPP can be loaded upon startup.
+Your server's init.txt file should contain the *load* command so that SAPP can be loaded upon startup.
 
 If SAPP is not loaded, the dedicated server will function as a normal dedicated server, with no SAPP features being available.
 You may want to have a server name, specify max players, specify whether or not the server is public (broadcasts to lobby), a mapcycle timeout to
@@ -101,8 +104,7 @@ Other SAPP Files
 .. note:: If you
   choose to utilize all of SAPP's features, you should keep your
   modifications as non-gameplay intrusive as possible, or else people
-  may get frustrated when playing on your server. I will go over the
-  uses of some of these files. 
+  may get frustrated when playing on your server.
 
 .. list-table::
    :widths: 15 30

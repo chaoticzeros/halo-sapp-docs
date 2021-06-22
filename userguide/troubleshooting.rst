@@ -18,3 +18,6 @@ Common Startup Errors
 3.  *Failed to open data cache file*
     
     You have not copied the maps folder to your Halo dedicated server folder.
+
+
+.. note:: Feel free to contribute to this page!

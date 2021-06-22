@@ -2,7 +2,7 @@ User Guide
 ===========
 
 SAPP is fairly easy to set up.
-You will need to download a few things in addition to SAPP.
+You will need to download a few things first.
 
 .. list-table::
    :widths: 15 30
@@ -19,7 +19,6 @@ You will need to download a few things in addition to SAPP.
 
    * - Dedicated server application
      - Comes preinstalled with Halo CE. Also included with the SAPP download above.
-       (you will also want Wine if you are *not* using Windows; requires an x86compatible processor)
 
    * - Maps
      - Comes preinstalled with Halo PC/CE.
@@ -38,7 +37,7 @@ You will need to download a few things in addition to SAPP.
 .. toctree::
     :maxdepth: 2
 
-    start
-    config
+    setup
+    configuration
     troubleshooting
     more
