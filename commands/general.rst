@@ -1,3 +1,5 @@
+.. _General Commands:
+
 General Commands
 ----------------
 

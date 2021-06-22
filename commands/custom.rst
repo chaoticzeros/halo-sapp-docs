@@ -1,3 +1,5 @@
+.. _Custom Commands:
+
 Custom Commands
 ---------------
 

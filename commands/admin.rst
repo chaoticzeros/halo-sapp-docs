@@ -1,3 +1,5 @@
+.. _Admin Management:
+
 Admin Management
 ----------------
 

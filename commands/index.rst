@@ -18,7 +18,8 @@ Like in stock Halo, SAPP command names can be autocompleted by pressing TAB.
    player
    general
    config
-   map
+   mapcycle
+   mapvote
    events
    custom
    query

@@ -1,3 +1,5 @@
+.. _Lua Scripting:
+
 Lua Scripting
 =============
 

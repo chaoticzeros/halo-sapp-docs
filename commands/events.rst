@@ -1,3 +1,5 @@
+.. _Events:
+
 Events
 ------
 
@@ -12,12 +14,12 @@ Quotations are not required except when spaces are being used in a section of th
 Conditional statements are optional, but can be used to add logic to your events.
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - cevent <name>[player number]
      - Raises event_custom, setting $ename and optionally the player that triggered the custom event.
@@ -45,12 +47,12 @@ There are numerous types of events.
 Some of them have additional variables to them in addition to custom variables (next section).
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Event**
-     - **Description**
+   * - Event
+     - Description
 
    * - event_aenter
      - A player has entered a custom area.
@@ -156,13 +158,13 @@ Event Variables
 There are numerous variables used in events, and can also be retrieved using *get_var()* when doing Lua scripting.
 
 .. list-table::
-   :widths: 33 33 33
-   :header-rows: 0
+   :widths: 10 5 30
+   :header-rows: 1
 
 
-   * - **Variable**
-     - **Type**
-     - **Description**
+   * - Variable
+     - Type
+     - Description
 
    * - $afk
      - Player
@@ -340,12 +342,12 @@ Variables can also be created and modified through scripting or events.
 Being able to store arbitrary values can be useful for increasing functionality.
 
 .. list-table::
-   :widths: 50 50
-   :header-rows: 0
+   :widths: 15 30
+   :header-rows: 1
 
 
-   * - **Command Usage**
-     - **Effect**
+   * - Command Usage
+     - Effect
 
    * - var_add <name><type>
      - This command creates a new custom variable.
