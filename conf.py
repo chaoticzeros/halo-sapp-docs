@@ -71,6 +71,7 @@ html_theme_options = {
     "collapse_navigation": True,
     "navigation_depth": 2,
     "show_prev_next": False,
+    "google_analytics_id": "G-8SD9JEJ4SG",
     
 }
 
